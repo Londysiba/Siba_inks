@@ -31,3 +31,9 @@ body {
     background-color: rgba(257, 257, 257, 0.4);
     padding: 40px;
 }
+
+.fa-brands {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
