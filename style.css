@@ -2,7 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('images/back4.png');
+    /*background-image: url('images/back4.png');*/
+    background: radial-gradient(465px at -15.1% -25%, rgb(17, 130, 193) 0%, rgb(67, 166, 238) 49%, rgb(126, 203, 244) 90.2%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,11 +19,34 @@ body {
     border-radius: 4px;
 }
 
+.about_container {
+    margin: 200px 100px 0px 100px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.about_container2 {
+    display: flex;
+    color: red;
+    justify-content: space-around;
+}
+
 .container2 {
     margin: 100px 90px;
     color: red;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 40px;
+    border-radius: 4px;
+}
+
+.about_container2 div {
+    margin: 150px 90px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 80px;
     border-radius: 4px;
 }
 
@@ -71,5 +95,6 @@ footer {
     text-align: center;
     color: white;
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
