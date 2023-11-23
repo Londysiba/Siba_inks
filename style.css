@@ -12,7 +12,7 @@ body {
 }
 
 .containers {
-    margin: 400px 90px 0px 90px;
+    margin: 200px 90px 0px 90px;
     color: red;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 40px;
@@ -51,7 +51,52 @@ body {
     text-align: center;
 }
 
+.about_container2 div button {
+    padding: 10px;
+    background-color: red;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.containers button {
+    padding: 10px;
+    background-color: red;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containers button:hover {
+    background-color: rgb(241, 149, 149);
+}
+.container2 button {
+    padding: 10px;
+    background-color: red;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.containers button a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 button:hover {
+    background-color: rgb(241, 149, 149);
+}
+.about_container2 div button:hover {
+    background-color: rgb(241, 149, 149);
+}
 .container3 {
     margin: 100px 90px 0px 90px;
     color: red;
